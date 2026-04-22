@@ -1,32 +1,26 @@
-# Projeto Edumetrics
+/ask Gere uma estrutura completa para o meu README.md. O projeto é o **TJE-DICMS (Todo Jovem na Escola)**. Use as informações abaixo para estruturar o texto:
 
-Este projeto é um exemplo de como utilizar um script Python para calcular a média de proficiência de alunos a partir de um arquivo CSV.
+1. **Título:** 🚀 Projeto TJE-DICMS - Automação e Validação de Beneficiários.
+    
+2. **Descrição:** Processamento da base de 249 mil registros para seleção de 94 mil alunos elegíveis da rede estadual (SEDUC-RS).
+    
+3. **Pilares do Projeto:**
+    
+    - Integração de dados (DB2, CadÚnico, ISE).
+        
+    - Regra de Ouro: Seleção do Responsável Familiar pelo menor código de parentesco.
+        
+    - Filtro de Renda: Corte de R$ 660,00 per capita.
+        
+4. **Dívida Técnica:** Mencione o esforço para sanar a divergência de 2.071 registros.
+    
+5. **Links do Obsidian (WikiLinks):**
+    
+    - [[TJE-DICMS/Documentacao_Tecnica|📄 Documentação Técnica]]
+        
+    - [[TJE-DICMS/Dicionario_CadUnico|📖 Dicionário CadÚnico]]
+        
+    - [[TJE-DICMS/CONTEXTO_IA|🧠 Manual de Contexto da IA]]
+        
 
-## Pré-requisitos
-
-- Python 3.x instalado na máquina.
-- Um arquivo CSV chamado `alunos.csv` no mesmo diretório do script, contendo uma coluna chamada `proficiencia`.
-
-## Como executar
-
-1. Certifique-se de que o arquivo `alunos.csv` está no mesmo diretório que o script `analisador.py`.
-2. Execute o script Python com o seguinte comando:
-
-```bash
-python analisador.py
-```
-
-3. O script irá calcular e exibir a média de proficiência dos alunos.
-
-## Estrutura do CSV
-
-O arquivo `alunos.csv` deve ter a seguinte estrutura:
-
-```csv
-nome,proficiencia
-Aluno1,85.0
-Aluno2,90.5
-Aluno3,78.0
-```
-
-Substitua os valores de exemplo pelos dados reais dos alunos.
+Formate com tabelas, listas e emojis para ficar visualmente limpo no Obsidian.`
